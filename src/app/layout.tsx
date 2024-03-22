@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import { Header } from "@/components/Header";
@@ -7,7 +6,7 @@ import { TemplateContext } from "next/dist/shared/lib/app-router-context.shared-
 
 const inter = Inter({ subsets: ["latin"] });
 
-interface Metadata {
+interface Root_Metadata {
     title: {
         default: string;
         template: string;
@@ -16,7 +15,7 @@ interface Metadata {
     description: string;
 }
 
-export const metadata: Metadata = {
+export const metadata: Root_Metadata = {
     title: {
         default: "ARTFUN | Home",
         template: "ARTFUN | %s",
