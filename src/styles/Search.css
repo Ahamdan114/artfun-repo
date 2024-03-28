@@ -1,0 +1,13 @@
+.principal-search {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.search {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    text-indent: 20px;
+}
