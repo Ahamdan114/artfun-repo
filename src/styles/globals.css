@@ -1,0 +1,74 @@
+:root {
+
+    --screen-size-two-xl: 1536px;
+    --screen-size-one-xl: 1440px;
+    --screen-size-xl: 1268px;
+    --screen-size-lg: 1024px; /* Laptop */
+    --screen-size-md: 768px; /* Tablet */
+    --screen-size-sm: 640px;
+    --screen-size-xs: 475px; /* Mobile Large */
+
+    --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --primary-color: #384BD3;
+    --secondary-color: #8B97EE;
+    --tertiary-color: #5164F1;
+    color: black;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+
+.container {
+    max-width: var(--screen-size-two-xl);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width: var(--screen-size-two-xl)) {
+    .container {
+        max-width: var(--screen-size-one-xl);
+    }
+}
+
+@media screen and (max-width: var(--screen-size-one-xl)) {
+    .container {
+        max-width: var(--screen-size-xl);
+    }
+}
+
+/* From here I work */
+
+@media screen and (max-width: var(--screen-size-xl)) {
+    .container {
+        max-width: var(--screen-size-lg);
+    }
+}
+
+@media screen and (max-width: var(--screen-size-lg)) {
+    .container {
+        max-width: var(--screen-size-md);
+    }
+}
+
+@media screen and (max-width: var(--screen-size-md)) {
+    .container {
+        max-width: var(--screen-size-sm);
+    }
+}
+
+@media screen and (max-width: var(--screen-size-sm)) {
+    .container {
+        max-width: var(--screen-size-xs);   
+    }
+}
+
+@media screen and (max-width: var(--screen-size-xs)) {
+    .container {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+.enrollment_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_categories {
+    width: 35%;
+}
+
+.page_categories > * {
+    margin: 30px;
+    text-align: center;
+}
+
+.enrollment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cell {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.form-cell > label {
+    width: 35%;
+}
+
+.form-cell > input {
+    width: 65%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.message-cell {
+    width: 80%;
+    height: 150px;
+
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    resize: vertical;
+
+    max-height: 300px;
+}
+
+.page_presentation {
+    width: 100%;
+}
+
+.form-btn {
+    padding: 15px;
+    background-color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+
+.form-btn:hover {
+    padding: 25px;
+    background-color: rgb(151, 150, 150);
+}
+
+.form-btn:active {
+    padding: 25px;
+    background-color: rgb(201, 199, 199);
+}

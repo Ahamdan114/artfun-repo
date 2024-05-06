@@ -1,0 +1,10 @@
+.banner_container {
+    /* background-color: red; */
+    width: 100%;
+}
+
+.unit_slide {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}

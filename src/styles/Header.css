@@ -1,13 +1,19 @@
 .header-nav {
     display: flex;
     align-items: center;
-    
+
     z-index: 100;
     position: sticky;
     top: 0;
 
-    background-color: white;
     height: 12vh;
+
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.occupier {
+    display: none;
 }
 
 .header-nav > * {
@@ -16,18 +22,25 @@
 
 .header-nav > .principal-search {
     flex-basis: 100%;
-    /* transition: text-align 0.5s ease-in-out; */
+}
+
+.search-icon {
+    display: none;
 }
 
 .header-nav > .principal-search::placeholder {
-    /* transform: scale(0.8) translate(0px, -10px); */
-    overflow: visible;
+    overflow: hidden;
+}
+
+.header-nav-icon-container {
+    display: none;
 }
 
 .header-nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     list-style-type: none;
     font-size: 20px;
     font-weight: bold;
@@ -36,16 +49,91 @@
 .header-nav-list-item {
     padding: 5px 15px;
     margin-right: 10px;
-    border: 1px solid black;
     transition: 0.25s all ease-in-out;
     cursor: pointer;
 }
 
-
-.header-nav-list-item:active  {
+.header-nav-list-item:active {
     color: rgb(105, 86, 36);
 }
+
 .header-nav-list-item:hover {
-    padding: 15px 35px;
+    padding: 10px 25px;
     color: gold;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .header-nav-icon-container {
+        display: block;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+
+    .header-nav-container-list {
+        width: 50%;
+        background-color: black;
+        position: absolute;
+        
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-right: 25px;
+
+        top: 250px;
+        left: 0;
+        right: 0;
+        
+    }
+
+    .header-nav-list {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+
+    .search-icon {
+        display: block;
+        font-size: 35px;
+    }
+
+    .principal-search {
+        display: none;
+    }
+
+    .occupier {
+        width: 70%;
+
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .search-icon {
+        font-size: 55px;
+    }
 }

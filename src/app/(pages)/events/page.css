@@ -1,0 +1,36 @@
+.socials_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.page_presentation {
+    width: 100%;
+}
+
+.page_presentation > * {
+    margin: 10px;
+}
+
+.title_list {
+    font-size: 33px;
+}
+
+.event_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.event_list > * {
+    flex: 1;
+    min-width: 33%;
+    max-width: 100%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.page_categories {
+    width: 25%;
+    margin: 20px;
+}

@@ -1,0 +1,53 @@
+.card {
+    max-width: 350px;
+    max-height: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    line-height: 0.5;
+    background-color: rgba(128, 128, 128, 0.4);
+    text-align: center;
+    padding: 10px;
+
+    margin-right: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-content {
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 475px;   
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .container {
+        max-width: 100%;
+    }
+}

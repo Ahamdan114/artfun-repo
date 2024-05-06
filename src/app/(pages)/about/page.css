@@ -1,0 +1,29 @@
+.about-us_container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.page_presentation {
+    width: 100%;
+
+    /* background-color: blue;
+    color: gold; */
+    margin: 30px;
+    padding: 0px 2%;
+}
+
+.page_categories {
+    width: 30%;
+}
+
+.page_categories > * {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about_title {
+        font-size: 20px;
+    }
+}

@@ -4,19 +4,22 @@ export const Footer = () => {
     const currentDate = new Date().getFullYear();
 
     return (
-        <div className="footer-container">
+        <div className={`footer-container container`}>
             <div className="upper-footer">
                 <div className="footer-in-contact">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
-                    pariatur provident, facere quisquam nostrum dolor rerum quibusdam quod
-                    incidunt dicta voluptatem quis atque ea unde odio animi quas sunt
-                    sint.
+                    <h2>Asociatia ARTFUN</h2>
+                    <p>Telephone 0723679097</p>
+                    <p>Soseaua Oltenitei nr 388, Bucuresti, sector 4</p>
+                    <p>Email: creativ.sportiv.recreativ @gmail.com.</p>
                 </div>
                 <div className="footer-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio
-                    beatae at excepturi minus ullam nobis, assumenda tempore aliquid
-                    explicabo placeat, porro possimus eligendi adipisci veritatis rerum!
-                    A, consequatur autem!
+                    <h2>Descriere</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        autem velit quaerat delectus omnis? Laudantium, dolores nesciunt
+                        repudiandae ipsam culpa consectetur possimus magnam vel architecto
+                        quis reiciendis, doloremque odit a.
+                    </p>
                 </div>
             </div>
             <div className="lower-footer">
