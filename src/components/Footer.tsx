@@ -15,10 +15,11 @@ export const Footer = () => {
                 <div className="footer-description">
                     <h2>Descriere</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                        autem velit quaerat delectus omnis? Laudantium, dolores nesciunt
-                        repudiandae ipsam culpa consectetur possimus magnam vel architecto
-                        quis reiciendis, doloremque odit a.
+                        ARTFUN este o asociatie dedicata promovarii activitatilor
+                        creative, sportive si recreative pentru toate categoriile de
+                        varsta. Misiunea noastra este de a inspira comunitatea sa
+                        exploreze si sa se exprime prin diverse forme de arta, sport si
+                        activitati recreationale.
                     </p>
                 </div>
             </div>
